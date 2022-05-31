@@ -19,3 +19,19 @@ body{
     margin-bottom:1em;
     transition:all .3s;
 }
+
+.form-label{
+    font-size:1em;
+    color:#aaa;
+    display:block;
+    opacity:1;
+    transform:translateY(-1.25em);
+    transform-origin:0 0;
+    transition:all .3;
+}
+
+.form-control{
+    box-shadow:none;
+    background-color: rgba(0, 0, 0,.02);
+
+}
