@@ -1,15 +1,10 @@
-const suscribersList = document.querySelector('#subscribersList');
+const feedDisplay = document.querySelector('#feed')
 
 
-getAllSubscribers();
 
-// ********************************************
 
-// DOGS FLOW
-// index
-function getAllSubscribers(){
-    fetch('http://localhost:3000/subscribers')
-        .then(r => r.json())
-        .then(appendSubscribers)
-        .catch(console.warn)
-};
+fetch('http://localhost:3000/subscribers')
+.then(response => response.json())
+.then(data => console.log(data))
+
+

@@ -8,13 +8,13 @@ POST http://localhost:3000/subscribers
 Content-Type: application/json
 
 {
-    "title": "Mr",
-    "name": "G",
-    "message": "I love this page"
+    "title": "Lady",
+    "name": "P",
+    "message": "I hate pidgeons"
 }
 
 ###
-DELETE http://localhost:3000/subscribers/6294e7802a2cac47f557349b
+DELETE http://localhost:3000/subscribers/6295f4f966742d8cb9a06276
 
 ###
 PATCH http://localhost:3000/subscribers/6294e59583b76d8a5f6768f7
