@@ -1,0 +1,21 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;   
+    height: 100vh;
+    font-family: roboto;
+    background-color: whitesmoke;
+}
+
+.container{
+    width:65vw;
+    box-shadow: 0 15px 35px black(50,50,93);
+    padding:2em;
+    background-color:whitesmoke;
+    border-radius:5px;
+}
+
+.form-group{
+    margin-bottom:1em;
+    transition:all .3s;
+}
