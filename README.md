@@ -6,9 +6,7 @@
 
 - Please install MongoDB locally.
 Install the various packages below
-npm i express, dotenv, mongoose
-npm i --save dev nodemon
-npm i cors
+npm install to add the various packages.
 
 ### Usage
 
